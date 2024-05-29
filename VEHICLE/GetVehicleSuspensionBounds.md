@@ -12,6 +12,7 @@ void _GET_VEHICLE_SUSPENSION_BOUNDS(Vehicle vehicle, Vector3* out1, Vector3* out
 ```
 Outputs 2 Vector3's.
 Scripts check if out2.x - out1.x > something.x
+These are most likely relative bounding box corners. out2.x - out1.x gets vehicle x (forward) size.
 Could be suspension related, as in max suspension height and min suspension height, considering the natives location.
 ```
 
